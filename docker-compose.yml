@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  pizzaportal:
+    image: ${DOCKER_REGISTRY-}pizzaportal
+    build:
+      context: .
+      dockerfile: PizzaPortal/Dockerfile

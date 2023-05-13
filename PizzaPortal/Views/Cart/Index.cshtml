@@ -1,0 +1,54 @@
+﻿@{
+    Layout = "_Layout";
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Your Cart</title>
+</head>
+<body>
+    <h3 style="text-align:center;">Your Cart</h3>
+
+    <table class="table table-bordered table-striped text-center">
+        <thead>
+            <tr>
+                <th>Options</th>
+                <th>Id</th>
+                <th>Name</th>
+                <th>Price</th>
+                <th>Quantity</th>
+                <th>SubTotal</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in ViewBag.cart)
+            {
+                <tr>
+
+                    <td><a asp-controller="Cart" asp-action="Remove" asp-route-id="@item.Pizza.PizzaId" class="btn btn-outline-danger">REMOVE</a></td>
+                    <td>@item.Pizza.PizzaId</td>
+                    <td>@item.Pizza.Name</td>
+                    <td>@item.Pizza.Price</td>
+                    <td>@item.Quantity</td>
+                    <td><span style="font-weight:bold;">@(item.Pizza.Price * item.Quantity)</span></td>
+                </tr>
+            }
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="5"><span style="font-weight:bold;">Total Amount</span></td>
+                <td><span style="font-weight:bold;">@ViewBag.total</span></td>
+            </tr>
+        </tfoot>
+    </table>
+    @* <a class="btn btn-outline-dark" asp-controller="Product" asp-action="Index">Add to Cart</a>*@
+    <a asp-controller="Pizza" asp-action="Index" class="btn btn-outline-danger">Continue Shopping</a> |
+    <a id="check-btn" asp-controller="Cart" asp-action="Checkout" class="btn btn-outline-info">Continue Checkout</a> |
+
+    <a asp-controller="Cart" asp-action="EmptyCart" class="btn btn-outline-warning">Empty Cart</a>
+
+</body>
+</html>

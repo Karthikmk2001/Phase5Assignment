@@ -1,0 +1,50 @@
+﻿@{
+    Layout = "_Layout";
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>MakePayment</title>
+    <style>
+        .container {
+            margin: auto;
+        }
+    </style>
+</head>
+<body>
+    <h2 style="text-align:center;background-color:aqua;padding:5px;">Payment Page</h2>
+    <br />
+    <div style="background-color:aquamarine;font-size:20px;text-align:center;padding:5px;">Delivery Address</div>
+    <br />
+    <table style="margin-left:auto;margin-right:auto;" border="1" cellpadding="10px" cellspacing="0">
+        <tr><td><strong>C/O : </strong>@ViewBag.address.UserName</td></tr>
+        <tr><td><strong>Email Id : </strong>@ViewBag.address.Email</td></tr>
+        <tr><td><strong>Mobile Number : </strong>@ViewBag.address.Phone</td></tr>
+        <tr><td><strong>Address : </strong>@ViewBag.address.Addre</td></tr>
+        <tr><td><strong>Country : </strong>@ViewBag.address.Country</td></tr>
+        <tr><td><strong>State : </strong>@ViewBag.address.State</td></tr>
+        <tr><td><strong>Zip : </strong>@ViewBag.address.Zip</td></tr>
+    </table>
+    <br />
+    <h1 style="text-align:center;">Total amount to be paid is : <span style="color:red">@ViewBag.total</span></h1>
+    <br />
+
+    <div class="select">
+        <strong>Select a payment method : </strong>
+        <select id="select" name="options">
+            <option value="#">Select</option>
+            <option value="creditcard">Credit Card</option>
+            <option value="debitcard">Debit Card</option>
+            <option value="pod">Pay on Delivery</option>
+            <option value="upi">UPI</option>
+            <option value="net">Net Banking</option>
+        </select>
+    </div>
+    <br />
+    <a style="display:block;text-align:center;" asp-asp-controller="Cart" id="payment" asp-action="Payment" class="btn btn-outline-primary">Continue With Payment</a>
+    <br />
+</body>
+</html>

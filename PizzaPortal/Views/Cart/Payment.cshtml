@@ -1,0 +1,76 @@
+﻿@{
+    Layout = "_Layout";
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Payment</title>
+    <style>
+        table, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+    </style>
+</head>
+<body>
+    <h2 style="text-align:center;" class="btn btn-success">Your Order is placed</h2>
+
+    <p>Your Order will be delivered by 4 days</p>
+    <h3>Order Details : </h3>
+    <table style="margin-left:auto;margin-right:auto;" cellpadding="10px" cellspacing="0">
+
+        <tr>
+            <td><strong>Address : </strong></td>
+            <td>
+                <strong>C/O : </strong>@ViewBag.address.UserName <br />
+                <strong>Email Id : </strong>@ViewBag.address.Email <br />
+                <strong>Mobile Number : </strong>@ViewBag.address.Phone <br />
+                <strong>Address : </strong>@ViewBag.address.Addre <br />
+                <strong>Country : </strong>@ViewBag.address.Country <br />
+                <strong>State : </strong>@ViewBag.address.State <br />
+                <strong>Zip : </strong>@ViewBag.address.Zip
+            </td>
+        </tr>
+        <tr>
+            <td>Orders : </td>
+            <td>
+                @foreach (var item in ViewBag.cart)
+                {
+                    <span><strong>OrderId : </strong>@item.Pizza.PizzaId</span>
+
+                    <br/>
+                    <span><strong>Name : </strong>@item.Pizza.Name</span>
+
+                    <br />
+                    <span><img src="@item.Pizza.Image" width="60%" height="225" /></span>
+
+                    <br />
+                    <span><strong>Price : </strong>@item.Pizza.Price</span>
+
+               @*      <br />
+                    <span><strong>Price : </strong>@item.Category.Name</span>*@
+
+                    <br />
+                    <span><strong>Quantity : </strong>@item.Quantity</span>
+
+                    <br />
+                    <span><strong>Sub Total : </strong>@(item.Pizza.Price * item.Quantity)</span>
+                    <hr />
+                }
+            </td>
+        </tr>
+        <tr>
+            <td><strong>Total : </strong></td>
+            <td><strong>@ViewBag.total</strong></td>
+        </tr>
+    </table>
+    <br />
+
+    <a class="btn btn-outline-dark" asp-controller="Pizza" asp-action="Index">Continue Shopping</a>
+    @*<a asp-controller="Cart" asp-action="MakePayment" class="btn btn-outline-dark">Back to Payment</a>*@
+    <a asp-controller="Cart" asp-action="Checkout" class="btn btn-outline-dark">Back to Check Out</a>
+</body>
+</html>
