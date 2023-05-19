@@ -1357,19 +1357,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\fmahammad\\.nuget\\packages\\": {}
+    "C:\\Users\\kmk\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\fmahammad\\source\\repos\\Phase4-Assignment\\PizzaPortalTests\\PizzaPortalTests.csproj",
+      "projectUniqueName": "C:\\Users\\kmk\\OneDrive - ALLEGIS GROUP\\Documents\\TRAINING\\PRACTICE\\Phase 5 AssignmentProject\\Phase-4-Project\\PizzaPortalTests\\PizzaPortalTests.csproj",
       "projectName": "PizzaPortalTests",
-      "projectPath": "C:\\Users\\fmahammad\\source\\repos\\Phase4-Assignment\\PizzaPortalTests\\PizzaPortalTests.csproj",
-      "packagesPath": "C:\\Users\\fmahammad\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\fmahammad\\source\\repos\\Phase4-Assignment\\PizzaPortalTests\\obj\\",
+      "projectPath": "C:\\Users\\kmk\\OneDrive - ALLEGIS GROUP\\Documents\\TRAINING\\PRACTICE\\Phase 5 AssignmentProject\\Phase-4-Project\\PizzaPortalTests\\PizzaPortalTests.csproj",
+      "packagesPath": "C:\\Users\\kmk\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\kmk\\OneDrive - ALLEGIS GROUP\\Documents\\TRAINING\\PRACTICE\\Phase 5 AssignmentProject\\Phase-4-Project\\PizzaPortalTests\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\fmahammad\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\kmk\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

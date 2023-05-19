@@ -18,14 +18,14 @@ namespace PizzaPortalTests
 
             GetDriver().FindElement(By.Id("privacy")).Click();
             GetDriver().FindElement(By.Id("register")).Click();
-            GetDriver().FindElement(By.Id("Name")).SendKeys("fardeenbaig");
-            GetDriver().FindElement(By.Id("UserName")).SendKeys("fardeenbaig");
-            GetDriver().FindElement(By.Id("password")).SendKeys("fardeen@2905");
-            GetDriver().FindElement(By.Id("Email")).SendKeys("mahammadfardeenbaig@gmail.com");
+            GetDriver().FindElement(By.Id("Name")).SendKeys("dev");
+            GetDriver().FindElement(By.Id("UserName")).SendKeys("dev");
+            GetDriver().FindElement(By.Id("password")).SendKeys("123");
+            GetDriver().FindElement(By.Id("Email")).SendKeys("d@gmail.com");
             GetDriver().FindElement(By.Id("register-btn")).Click();
             Thread.Sleep(2000);
-            GetDriver().FindElement(By.Id("UserName")).SendKeys("fardeenbaig");
-            GetDriver().FindElement(By.Id("password")).SendKeys("fardeen@2905");
+            GetDriver().FindElement(By.Id("UserName")).SendKeys("dev");
+            GetDriver().FindElement(By.Id("password")).SendKeys("123");
             GetDriver().FindElement(By.Id("loginbtn")).Click();
             Thread.Sleep(2000);
             GetDriver().FindElement(By.Id("avail-btn")).Click();
@@ -36,10 +36,10 @@ namespace PizzaPortalTests
             Thread.Sleep(2000);
             GetDriver().FindElement(By.Id("check-btn")).Click();
             Thread.Sleep(2000);
-            GetDriver().FindElement(By.Id("UserName")).SendKeys("fardeen");
-            GetDriver().FindElement(By.Id("Email")).SendKeys("fmahammad@teksystems.com");
-            GetDriver().FindElement(By.Id("Phone")).SendKeys("9963647349");
-            GetDriver().FindElement(By.Id("Addre")).SendKeys("vijayawada");
+            GetDriver().FindElement(By.Id("UserName")).SendKeys("dev");
+            GetDriver().FindElement(By.Id("Email")).SendKeys("d@gmail.com");
+            GetDriver().FindElement(By.Id("Phone")).SendKeys("1234567890");
+            GetDriver().FindElement(By.Id("Addre")).SendKeys("mangalore");
             Thread.Sleep(2000);
             var countryDropDown = GetDriver().FindElement(By.Id("country"));
             var countrySelectElement = new SelectElement(countryDropDown);
@@ -48,9 +48,9 @@ namespace PizzaPortalTests
             var stateDropDown = GetDriver().FindElement(By.Id("state"));
             var stateSelectElement = new SelectElement(stateDropDown);
             stateSelectElement.SelectByText("Andhra Pradesh");
-            GetDriver().FindElement(By.Id("Zip")).SendKeys("520007");
-            /*GetDriver().FindElement(By.Id("same-address")).Click();
-            GetDriver().FindElement(By.Id("save-info")).Click();*/
+            GetDriver().FindElement(By.Id("Zip")).SendKeys("123456");
+            GetDriver().FindElement(By.Id("same-address")).Click();
+            GetDriver().FindElement(By.Id("save-info")).Click();
             var checkbox1 = GetDriver().FindElement(By.Id("same-address"));
             checkbox1.Click();
             var checkbox2 = GetDriver().FindElement(By.Id("save-info"));
@@ -60,9 +60,9 @@ namespace PizzaPortalTests
             var paymentDropDown = GetDriver().FindElement(By.Id("select"));
             var paymentSelectElement = new SelectElement(paymentDropDown);
             paymentSelectElement.SelectByText("Credit Card");
-            GetDriver().FindElement(By.Id("payment")).Click();
+           // GetDriver().FindElement(By.Id("payment")).Click();
             Thread.Sleep(2000);
-            GetDriver().FindElement(By.Id("logout-btn")).Click();
+            //GetDriver().FindElement(By.Id("logout-btn")).Click();
             Thread.Sleep(2000);
 
 

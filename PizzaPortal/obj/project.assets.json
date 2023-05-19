@@ -10595,6 +10595,7 @@
   "projectFileDependencyGroups": {
     "net6.0": [
       "Microsoft.EntityFrameworkCore >= 7.0.5",
+      "Microsoft.EntityFrameworkCore.Design >= 7.0.5",
       "Microsoft.EntityFrameworkCore.Relational >= 7.0.5",
       "Microsoft.EntityFrameworkCore.SqlServer >= 7.0.5",
       "Microsoft.EntityFrameworkCore.Tools >= 7.0.5",
@@ -10604,19 +10605,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\fmahammad\\.nuget\\packages\\": {}
+    "C:\\Users\\kmk\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\fmahammad\\source\\repos\\Phase4-Assignment\\PizzaPortal\\PizzaPortal.csproj",
+      "projectUniqueName": "C:\\Users\\kmk\\OneDrive - ALLEGIS GROUP\\Documents\\TRAINING\\PRACTICE\\Phase 5 AssignmentProject\\Phase-4-Project\\PizzaPortal\\PizzaPortal.csproj",
       "projectName": "PizzaPortal",
-      "projectPath": "C:\\Users\\fmahammad\\source\\repos\\Phase4-Assignment\\PizzaPortal\\PizzaPortal.csproj",
-      "packagesPath": "C:\\Users\\fmahammad\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\fmahammad\\source\\repos\\Phase4-Assignment\\PizzaPortal\\obj\\",
+      "projectPath": "C:\\Users\\kmk\\OneDrive - ALLEGIS GROUP\\Documents\\TRAINING\\PRACTICE\\Phase 5 AssignmentProject\\Phase-4-Project\\PizzaPortal\\PizzaPortal.csproj",
+      "packagesPath": "C:\\Users\\kmk\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\kmk\\OneDrive - ALLEGIS GROUP\\Documents\\TRAINING\\PRACTICE\\Phase 5 AssignmentProject\\Phase-4-Project\\PizzaPortal\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\fmahammad\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\kmk\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -10643,6 +10644,12 @@
         "targetAlias": "net6.0",
         "dependencies": {
           "Microsoft.EntityFrameworkCore": {
+            "target": "Package",
+            "version": "[7.0.5, )"
+          },
+          "Microsoft.EntityFrameworkCore.Design": {
+            "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+            "suppressParent": "All",
             "target": "Package",
             "version": "[7.0.5, )"
           },

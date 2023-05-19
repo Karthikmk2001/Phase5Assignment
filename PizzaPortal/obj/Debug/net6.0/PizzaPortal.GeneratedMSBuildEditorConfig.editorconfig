@@ -9,85 +9,85 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = PizzaPortal
 build_property.RootNamespace = PizzaPortal
-build_property.ProjectDir = C:\Users\fmahammad\source\repos\Phase4-Assignment\PizzaPortal\
+build_property.ProjectDir = C:\Users\kmk\OneDrive - ALLEGIS GROUP\Documents\TRAINING\PRACTICE\Phase 5 AssignmentProject\Phase-4-Project\PizzaPortal\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\fmahammad\source\repos\Phase4-Assignment\PizzaPortal
+build_property.MSBuildProjectDirectory = C:\Users\kmk\OneDrive - ALLEGIS GROUP\Documents\TRAINING\PRACTICE\Phase 5 AssignmentProject\Phase-4-Project\PizzaPortal
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/fmahammad/source/repos/Phase4-Assignment/PizzaPortal/Views/Account/Dashboard.cshtml]
+[C:/Users/kmk/OneDrive - ALLEGIS GROUP/Documents/TRAINING/PRACTICE/Phase 5 AssignmentProject/Phase-4-Project/PizzaPortal/Views/Account/Dashboard.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxEYXNoYm9hcmQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/fmahammad/source/repos/Phase4-Assignment/PizzaPortal/Views/Account/Index.cshtml]
+[C:/Users/kmk/OneDrive - ALLEGIS GROUP/Documents/TRAINING/PRACTICE/Phase 5 AssignmentProject/Phase-4-Project/PizzaPortal/Views/Account/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/fmahammad/source/repos/Phase4-Assignment/PizzaPortal/Views/Account/Login.cshtml]
+[C:/Users/kmk/OneDrive - ALLEGIS GROUP/Documents/TRAINING/PRACTICE/Phase 5 AssignmentProject/Phase-4-Project/PizzaPortal/Views/Account/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/fmahammad/source/repos/Phase4-Assignment/PizzaPortal/Views/Account/Register.cshtml]
+[C:/Users/kmk/OneDrive - ALLEGIS GROUP/Documents/TRAINING/PRACTICE/Phase 5 AssignmentProject/Phase-4-Project/PizzaPortal/Views/Account/Register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/fmahammad/source/repos/Phase4-Assignment/PizzaPortal/Views/Cart/Buy.cshtml]
+[C:/Users/kmk/OneDrive - ALLEGIS GROUP/Documents/TRAINING/PRACTICE/Phase 5 AssignmentProject/Phase-4-Project/PizzaPortal/Views/Cart/Buy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FydFxCdXkuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/fmahammad/source/repos/Phase4-Assignment/PizzaPortal/Views/Cart/Checkout.cshtml]
+[C:/Users/kmk/OneDrive - ALLEGIS GROUP/Documents/TRAINING/PRACTICE/Phase 5 AssignmentProject/Phase-4-Project/PizzaPortal/Views/Cart/Checkout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FydFxDaGVja291dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/fmahammad/source/repos/Phase4-Assignment/PizzaPortal/Views/Cart/EmptyCart.cshtml]
+[C:/Users/kmk/OneDrive - ALLEGIS GROUP/Documents/TRAINING/PRACTICE/Phase 5 AssignmentProject/Phase-4-Project/PizzaPortal/Views/Cart/EmptyCart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FydFxFbXB0eUNhcnQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/fmahammad/source/repos/Phase4-Assignment/PizzaPortal/Views/Cart/Index.cshtml]
+[C:/Users/kmk/OneDrive - ALLEGIS GROUP/Documents/TRAINING/PRACTICE/Phase 5 AssignmentProject/Phase-4-Project/PizzaPortal/Views/Cart/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FydFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/fmahammad/source/repos/Phase4-Assignment/PizzaPortal/Views/Cart/MakePayment.cshtml]
+[C:/Users/kmk/OneDrive - ALLEGIS GROUP/Documents/TRAINING/PRACTICE/Phase 5 AssignmentProject/Phase-4-Project/PizzaPortal/Views/Cart/MakePayment.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FydFxNYWtlUGF5bWVudC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/fmahammad/source/repos/Phase4-Assignment/PizzaPortal/Views/Cart/Payment.cshtml]
+[C:/Users/kmk/OneDrive - ALLEGIS GROUP/Documents/TRAINING/PRACTICE/Phase 5 AssignmentProject/Phase-4-Project/PizzaPortal/Views/Cart/Payment.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FydFxQYXltZW50LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/fmahammad/source/repos/Phase4-Assignment/PizzaPortal/Views/Home/Index.cshtml]
+[C:/Users/kmk/OneDrive - ALLEGIS GROUP/Documents/TRAINING/PRACTICE/Phase 5 AssignmentProject/Phase-4-Project/PizzaPortal/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/fmahammad/source/repos/Phase4-Assignment/PizzaPortal/Views/Home/Privacy.cshtml]
+[C:/Users/kmk/OneDrive - ALLEGIS GROUP/Documents/TRAINING/PRACTICE/Phase 5 AssignmentProject/Phase-4-Project/PizzaPortal/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/fmahammad/source/repos/Phase4-Assignment/PizzaPortal/Views/Pizza/Index.cshtml]
+[C:/Users/kmk/OneDrive - ALLEGIS GROUP/Documents/TRAINING/PRACTICE/Phase 5 AssignmentProject/Phase-4-Project/PizzaPortal/Views/Pizza/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGl6emFcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/fmahammad/source/repos/Phase4-Assignment/PizzaPortal/Views/Pizza/ViewDetails.cshtml]
+[C:/Users/kmk/OneDrive - ALLEGIS GROUP/Documents/TRAINING/PRACTICE/Phase 5 AssignmentProject/Phase-4-Project/PizzaPortal/Views/Pizza/ViewDetails.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGl6emFcVmlld0RldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/fmahammad/source/repos/Phase4-Assignment/PizzaPortal/Views/Shared/Error.cshtml]
+[C:/Users/kmk/OneDrive - ALLEGIS GROUP/Documents/TRAINING/PRACTICE/Phase 5 AssignmentProject/Phase-4-Project/PizzaPortal/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/fmahammad/source/repos/Phase4-Assignment/PizzaPortal/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/kmk/OneDrive - ALLEGIS GROUP/Documents/TRAINING/PRACTICE/Phase 5 AssignmentProject/Phase-4-Project/PizzaPortal/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/fmahammad/source/repos/Phase4-Assignment/PizzaPortal/Views/_ViewImports.cshtml]
+[C:/Users/kmk/OneDrive - ALLEGIS GROUP/Documents/TRAINING/PRACTICE/Phase 5 AssignmentProject/Phase-4-Project/PizzaPortal/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/fmahammad/source/repos/Phase4-Assignment/PizzaPortal/Views/_ViewStart.cshtml]
+[C:/Users/kmk/OneDrive - ALLEGIS GROUP/Documents/TRAINING/PRACTICE/Phase 5 AssignmentProject/Phase-4-Project/PizzaPortal/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/fmahammad/source/repos/Phase4-Assignment/PizzaPortal/Views/Shared/_Layout.cshtml]
+[C:/Users/kmk/OneDrive - ALLEGIS GROUP/Documents/TRAINING/PRACTICE/Phase 5 AssignmentProject/Phase-4-Project/PizzaPortal/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-b4i1t0s5gu

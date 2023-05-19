@@ -12,7 +12,7 @@ using PizzaPortal.Models;
 namespace PizzaPortal.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20230511091140_InitialMigrate")]
+    [Migration("20230519104714_InitialMigrate")]
     partial class InitialMigrate
     {
         /// <inheritdoc />

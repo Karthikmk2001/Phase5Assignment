@@ -1,0 +1,19 @@
+name: dockercompose12883574910237773599
+services:
+  pizzaportal:
+    build:
+      context: C:\Users\kmk\OneDrive - ALLEGIS GROUP\Documents\TRAINING\PRACTICE\Phase
+        5 AssignmentProject\Phase-4-Project
+      dockerfile: PizzaPortal/Dockerfile
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+    image: pizzaportal
+    networks:
+      default: null
+    ports:
+    - mode: ingress
+      target: 80
+      protocol: tcp
+networks:
+  default:
+    name: dockercompose12883574910237773599_default
